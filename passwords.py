@@ -1,7 +1,7 @@
 import random
-import wordcount
+import charactercountgraph
 """Randomly Generates a password containing Aa, numbers and symbols
-Calls wordcount.py to plot a graph of the most repeated characters"""
+Calls charactercountgraph.py to plot a graph of the most repeated characters"""
 
 """ERRORS"""
 ERROR_INVALID_NUMBER_MESSAGE = "This is not a valid number. Try again!"
@@ -52,7 +52,7 @@ def ask_for_n(msg):
 
 """ - Counts characters and plots a bar graph for every appearance"""
 def count_characters_and_plot_graph(filename, n):
-    wordcount.main(filename, n)
+    charactercountgraph.main(filename, n)
 
 
 """RUN PROGRAM"""
